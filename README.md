@@ -1,4 +1,8 @@
-<<<<<<< HEAD
+
+# Patron Strategie en Java 
+Ce projet est une application console Java qui présente une implémentation du
+patron de conception **Strategie**
+
 ## Architecture UML
 Le diagramme correspond à l'implementation du patron strategie  présente dans le code  : 
 ```mermaid
@@ -38,8 +42,5 @@ classDiagram
     DessinCatalogue <|.. DessinCatalogueParLigne
     DessinCatalogue <|.. DessinCatalogueTroisParLigne
     VueCatalogue "" --> "0..*" VueVehicule : vueVehicules
-    VueCatalogue ""--> "1" 
+    VueCatalogue ""--> "1" DessinCatalogue : dessin
 ```
-=======
-# Strategy_Pattern
->>>>>>> ba609ef0311f935bb240d453272e7e824c18ee1f
