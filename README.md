@@ -1,4 +1,3 @@
-
 ## Architecture UML
 Le diagramme correspond à l'implementation du patron strategie  présente dans le code  : 
 ```mermaid
