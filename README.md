@@ -1,7 +1,9 @@
 
+
 # Patron Strategie en Java 
 Ce projet est une application console Java qui présente une implémentation du
 patron de conception **Strategie**
+
 
 ## Architecture UML
 Le diagramme correspond à l'implementation du patron strategie  présente dans le code  : 
