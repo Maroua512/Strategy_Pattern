@@ -37,6 +37,6 @@ classDiagram
     DessinCatalogue <|.. DessinCatalogueParLigne
     DessinCatalogue <|.. DessinCatalogueTroisParLigne
     VueCatalogue "" --> "0..*" VueVehicule : vueVehicules
-    VueCatalogue ""--> "1" 
+    VueCatalogue ""--> "1" DessinCatalogue
 ```
 
